@@ -1,1 +1,1 @@
-![Philip Wadler](wadler.png)
+![Philip Wadler](static/wadler.jpg)
