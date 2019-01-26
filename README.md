@@ -1,2 +1,3 @@
-# faq
-Answers for frequently asked questions
+# F.A.Q
+
+Answers for Frequently Asked Questions
