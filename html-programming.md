@@ -9,6 +9,12 @@ Por exemplo, a CFML é de marcação e você faz até um servidor web com ela: h
 ### Você não faz funções
 Isso não faz ser mais ou menos linguagem de programação. Em Assembly, por exemplo, e algumas implementações de BASIC, você não escreve funções. Assembly não é linguagem de programação também?
 
+### Você não cria algorítimos
+Ter a habilidade de criar algorítimos e estruturas de controle de fluxo, são características de uma parte das linguagens de programação, mas não do todo; nem toda linguagem precisa ser GPL e Turing-complete, existem as DSLs, Declarativas, Totais etc, que é o universo onde o HTML se encaixa. E DSLs Totais são linguagens que não precisam ter o "poder de fogo" de implementar algorítimos, elas servem um propósito bem especifico, por exemplo a SQL.
+
+### Você não cria condições/estruturas de fluxo (if, for, while...)
+Programação declarativa é justamente poder expressar a lógica de uma computação sem descrever o fluxo de controle (for, if, while).
+
 ### More
 O que acontece é que HTML é uma DSL, por isso não tem implementações extravagantes pra ela, apenas as que os navegadores usam como Blink, Gecko, WebKit... Mas da mesma forma que JS se tornou muito mais poderoso agora com uma nova runtime, o Node.js, nada impede de haver um Node.html que roda HTML no servidor e faz coisas como a CFML.
 
