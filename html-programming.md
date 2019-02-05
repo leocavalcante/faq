@@ -16,6 +16,10 @@ Ter a habilidade de criar algorítimos e estruturas de controle de fluxo, são c
 Programação declarativa é justamente poder expressar a lógica de uma computação sem descrever o fluxo de controle (for, if, while).
 Fora que qual é a diferença de um `<noscript></noscript>` pra um `if (!script) {}`? rs Um é declarativo e o outro não, só isso.
 
+### Não é Turing-complete
+Linguagens de programação não precisam ser Turing-complete, nesse caso são chamadas de linguagens Totais e não deixam de ser de programação por causa desse fato. Isso só significa que elas terminação provável e não sofrem do halting-problem.
+https://en.wikipedia.org/wiki/Total_functional_programming
+
 ### More
 O que acontece é que HTML é uma DSL, por isso não tem implementações extravagantes pra ela, apenas as que os navegadores usam como Blink, Gecko, WebKit... Mas da mesma forma que JS se tornou muito mais poderoso agora com uma nova runtime, o Node.js, nada impede de haver um Node.html que roda HTML no servidor e faz coisas como a CFML.
 
