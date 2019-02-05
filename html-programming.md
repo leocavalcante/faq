@@ -27,3 +27,4 @@ O que acontece é que HTML é uma DSL, por isso não tem implementações extrav
 - https://www.quora.com/What-is-the-difference-between-programming-languages-markup-languages-and-scripting-languages-in-terms-of-how-they-manipulate-create-use-data-What-are-the-differences/answer/Quildreen-Motta
 - https://www.youtube.com/watch?v=4A2mWqLUpzw
 - https://www.youtube.com/watch?v=-csXdj4WVwA
+- https://twitter.com/PeterLodewijk/status/1047392522102890496
