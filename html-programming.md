@@ -28,3 +28,4 @@ O que acontece é que HTML é uma DSL, por isso não tem implementações extrav
 - https://www.youtube.com/watch?v=4A2mWqLUpzw
 - https://www.youtube.com/watch?v=-csXdj4WVwA
 - https://twitter.com/PeterLodewijk/status/1047392522102890496
+- https://www.youtube.com/watch?v=grr09e_cH_c
