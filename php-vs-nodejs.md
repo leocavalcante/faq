@@ -2,7 +2,7 @@
 
 ## pt-BR
 
-Essa comparação é bem comum, mas não é exata. PHP é uma linguagem e Node.js é uma runtime. Como você citou uso de recursos, como CPU e I/O (requests/segundo), então imagino que queira comprar runtimes:
+Essa comparação é bem comum, mas não é exata. PHP é uma linguagem e Node.js é uma runtime. Como você citou uso de recursos, como CPU e I/O (requests/segundo), então imagino que queira comparar runtimes:
 
 A implementação mais comum pro PHP é a Zend Engine via PHP-FPM atrás de um web server como (Nginx e Apache), nesse quesito o Node.js acaba sendo melhor mesmo por causa da sua natureza em lidar com requisições de forma assíncrona através do pattern reactor (implementar um event-loop), porém de forma single-thread, ou seja, se um processo desse loop demorar na CPU, todos os outros no loop terão esse delay também.
 
