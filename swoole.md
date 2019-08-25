@@ -16,3 +16,7 @@ Ao invés de rodar atrás de um servidor web/CGI, como é feito normalmente com 
 ### O benchmark da TechEmpower
 É uma comparação de desempenho entre frameworks web que fazem coisas reais do mundo real, como serialização JSON, acesso ao banco de dados e composição templates do lado do servidor etc.
 As implementações são todas open-source, enviadas pela comunidade; se você acha que seu framework pode ser mais rápido, só enviar um PR :) E as configurações já são todas baseadas num ambiente de produção, não de desenvolvimento.
+
+### Misc
+
+Bom, quando outra linguagem de script tiver multi-task preemptivo implementado por green-threads num modelo de co-rotinas e concorrência baseada em CPS tudo isso sob um scheduler multi-thread... aí a gente conversa; por enquanto vou de PHP mesmo que nesse cenário tá batendo até em .NET Core.
