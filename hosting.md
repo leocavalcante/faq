@@ -1,5 +1,5 @@
 # Hosting
-## Hosting provides vs. VPSes
+## Hosting providers vs. VPSes
 
 ### pt-BR
 O que pega aí é o 'formulário'.
