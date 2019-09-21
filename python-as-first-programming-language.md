@@ -2,7 +2,7 @@
 
 ## pt-BR
 
-Tem no mínimo 3 papers mostrando cientificamente como Python é a melhor linguagem pra um primeiro contato com programação. Da muito certo nas escolas primárias dos EUA e a linguagem do primeiro ano de ciência da computação do MIT.
+Tem no mínimo 3 papers mostrando cientificamente como Python é a melhor linguagem pra um primeiro contato com programação. Da muito certo nas escolas primárias dos EUA e é a linguagem do primeiro ano de ciência da computação do MIT.
 
 https://www.cs.ubc.ca/wccce/Program03/papers/Toby.html
 https://dl.acm.org/citation.cfm?id=2602754
