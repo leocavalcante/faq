@@ -1,7 +1,7 @@
 # I have a millionaire ideia
 
 ## pt-BR
-Estatisticamente você e mais outras 599 pessoas também tiveram. Você não precisa de um programador pra tirar ela da cabeça e nem muito dinheiro.
+Estatisticamente você e mais outras 599 pessoas também tiveram essa mesma ideia. Você não precisa de um programador pra tirar ela da cabeça e nem muito dinheiro.
 
 Primeiro você precisa validar se essa ideia é boa mesmo, pode começar fazendo algumas entrevistas dentro do contexto que ela está inserida. Será que as pessoas estão precisando mesmo disso que você quer propor? Ou é algo que só você sente falta? Com as entrevistas vai ser possível identificar se mais pessoas passam pelo mesmo problema e encontrar dores, onde que esse problema afeta de verdade, é ali que você tem que atacar.
 
