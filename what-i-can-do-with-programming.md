@@ -1,4 +1,4 @@
-# What I can do wth programming?
+# What I can do with programming?
 
 ## pt-BR
 Basicamente: computações de forma produtiva. Você pode computar dados com papel e caneta, mas delegar pra um computador, através de uma linguagem de programação, 'provavelmente' será mais eficiente.
