@@ -23,6 +23,11 @@ https://en.wikipedia.org/wiki/Total_functional_programming
 ### More
 O que acontece é que HTML é uma DSL, por isso não tem implementações extravagantes pra ela, apenas as que os navegadores usam como Blink, Gecko, WebKit... Mas da mesma forma que JS se tornou muito mais poderoso agora com uma nova runtime, o Node.js, nada impede de haver um Node.html que roda HTML no servidor e faz coisas como a CFML.
 
+### Another try
+Geralmente, quando a pessoa inicia nesse meio de programação, ela começa aprendendo estruturas para controle de fluxo de dados de forma imperativa, até chamam isso de "lógica de programação" e isso acaba sendo difundido erroneamente como o que é A programação, então linguagens que não implementam esse modelo, acabam sendo vistas como não-programação.
+Mas é uma visão muito simplista (normal pra quem tá aprendendo), a ideia de programação vai mais além e existem vários outros paradigmas além do imperativo, varias outras formas de pensar em como instruir um computador. O HTML é uma linguagem de programação declarativa, ser uma linguagem que usa markup como sintaxe, não exclui o fato de ainda de ser de programação; outros exemplos são TeX e CFML.
+De começo, pra não passar "vergonha" no meio da garotada, fala que não é rsrs, mas continua estudando, indo atrás, abrindo a cabeça e vendo outras linguagens e paradigmas além do imperativo que um dia esse estalo vem ;) vou deixar umas referências como comentário do meu comentário:
+
 ---
 - https://www.quora.com/What-is-the-difference-between-programming-languages-markup-languages-and-scripting-languages-in-terms-of-how-they-manipulate-create-use-data-What-are-the-differences/answer/Quildreen-Motta
 - https://www.youtube.com/watch?v=4A2mWqLUpzw
