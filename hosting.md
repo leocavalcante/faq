@@ -7,3 +7,6 @@ Se forem páginas 100% estáticas da pra por em vários lugares. Firebase Hostin
 Mas a computação desse formulário vai precisar de algo 'não-estático'. Tem planos free forever na Azure e na GCP, mas você ainda vai precisar de um cartão de crédito internacional, mesmo que a fatura não venha ou venha zerada.
 
 Na minha opinião, se você trabalha com isso vale a pena pegar uma VPS e estudar um mínimo de DevOps, o suficiente pra pelo menos suas próprias aplicações e configurar um ambiente. Se você não é programador, não trabalha com desenvolvimento, mas tem um site pra hospedar, aí coisas como Locaweb e Hostgator podem fazer sentido.
+
+#### Free
+Se for um site estático (só html, css, js, imagens etc) sem processamento no servidor, então tem mais opções: tem o GitHub pages, Netlify e ZEIT Now, entre outras. Se você precisar de algo no servidor, falar com banco de dados, websockets, filas etc, então pode experimentar o Heroku e se tiver um cartão de crédito internacional da pra criar contas nas AWS (gratuito por 12 meses), na Azure e na Google Cloud.
