@@ -6,3 +6,4 @@
 - Design Patterns (Gang of Four)
 - Compilers (Textbook aka Livro do Dragão)
 - Patterns of Enterprise Application Architecture (Martin Fowler)
+- Clean Architecture (Robert Cecil Martin)
