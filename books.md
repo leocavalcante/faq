@@ -7,3 +7,5 @@
 - Compilers (Textbook aka Livro do Dragão)
 - Patterns of Enterprise Application Architecture (Martin Fowler)
 - Clean Architecture (Robert Cecil Martin)
+- The Clean Coder (Robert Cecil Marti)
+- Learn You a Haskell for Great Good! (Miran Lipovača)
