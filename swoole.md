@@ -20,3 +20,22 @@ As implementações são todas open-source, enviadas pela comunidade; se você a
 ### Misc
 
 Bom, quando outra linguagem de script tiver multi-task preemptivo implementado por green-threads num modelo de co-rotinas e concorrência baseada em CPS tudo isso sob um scheduler multi-thread... aí a gente conversa; por enquanto vou de PHP mesmo que nesse cenário tá batendo até em .NET Core.
+
+### 5o5
+
+#### Negativos
+
+1. Só funciona em Unix então você precisa de Docker ou WSL se desenvolve no Windows e eu acho que isso é uma puta barreira pra iniciantes
+2. O modelo de corotinas pra resolver concorrência é o mais díficil, IMHO, e essas trocas de paradigmas custam muitas calorias, nosso cérebro tende evitar
+3. Documentação muito pobre ainda e o que tem é em mandarim tem que saber se virar vendo os sources, testes e exemplos
+4. Comunidade engatinhando, não vai ter trocentos links de Swoole com trocentas formas de usa-lo em trocentos idiomas como é com um Laravel e WordPress da vida
+5. Pessoas e infra, isso é muito importante pra decisão de stack em muitas empresas, como ficaria trazer gente pro time e como é o deploy disso, tipo, não vai rodar no compartilhado da Locaweb.
+(esses 3 ultimos pontos estão meio que interligados, se eu pensar em coisa melhor eu posto aqui)
+
+#### Positivos
+
+6. I/O não-bloqueante, acho que não tem como fazer web mais da outra forma.
+7. Performance é absurda, põe PHP do lado de Go, .NET e JVM
+8. Raw TCP! Implementação de servers Http, websockets até de Redis (server mesmo, não client) são possíveis, games servers tipo segurar um MMO, WebRTC etc
+9. Usar todos os cores da máquina sem precisar fazer nada explicitamente pra isso acontecer, o próprio scheduler da Swoole distribui as corotinas entre workers que estão divididos entre as CPUs (o video do Akita explica isso muito bem, é o mesmo esquema de Go e Erlang)
+10. Ainda é PHP, todo know-how que você já tem em PHP, toda sua equipe de devs PHP, ganhando esse poderio todo isso é deveras interessante pra empresas grandes, é o que motivou Facebook a fazer Hack/HHVM e Vimeo a fazer Psalm, por exemplo, uma ferramenta pra devs PHP ao invés de trocar de linguagem
