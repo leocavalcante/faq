@@ -6,5 +6,5 @@ Python é uma boa pra quem tem 0 noção de programação, tão fácil quanto, m
 
 ## Footnotes
 
-http://openbookproject.net/thinkcs/python/english3e/
-https://medium.com/@robotlolita/quero-programar-por-onde-come%C3%A7o-43daeea807b2
+- http://openbookproject.net/thinkcs/python/english3e/
+- https://medium.com/@robotlolita/quero-programar-por-onde-come%C3%A7o-43daeea807b2
