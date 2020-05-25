@@ -4,7 +4,7 @@
 
 Cara, eu tenho gostado bastante de MongoDB, mas é pura questão de gosto mesmo, não vou ter nenhum argumento técnico ou link pra paper acadêmico pra provar nada cientificamente kkk.
 - Acho a ideia de ser schemaless muito interessante, gosto bastante dessa flexibilidade.
-- Consegue combinar esse document-model com ACID.
+- Consegue combinar esse document-model com ACID transactions.
 - A aggregation framework é poderosíssima e não deve nada a um SQL da vida.
 - Indexação, busca por texto e geospatial queries (busca por mais próximo de uma latitude e longitude, por exemplo) built-in.
 - O Atlas tem generosos 500mb free independente da quantidade de leituras ou escritas.
