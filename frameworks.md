@@ -20,3 +20,5 @@ Sim, só em arquitetura porque pras essas outras coisas você pode contar com bi
 
 Se você tem know-how e está numa posição onde pode tomar decisões de arquitetura, não use frameworks, componha bibliotecas na melhor arquitetura que você analisou pro problema.
 Se você tá iniciando e ainda não sabe muito bem o que tá fazendo, use um framework.
+
+Mas mais ainda: se você tiver conhecimento em arquiteturas limpas, o framework vira um mero detalhe, uma coisa que você troca e experimenta sem afetar seu código. Ai ao invés de um fully-bloated como Laravel você vai preferir componentes especializados em problemas, tipo a FastRoute do Nikita Popov pra rotas, a Doctrine pra acesso ao banco de dados, a Flysystem da The PHP League pra storage etc etc... No fim o Laravel é um catadão desses componentes, a diferença é que você vai ter liberdade pra escolher, trocar e organizar da melhor forma pro seu projeto/problema.
