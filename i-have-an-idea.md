@@ -1,4 +1,4 @@
-# I have a millionaire ideia
+# I have a Millionaire Idea!
 
 ## pt-BR
 Estatisticamente você e mais outras 599 pessoas também tiveram essa mesma ideia. Você não precisa de um programador pra tirar ela da cabeça e nem muito dinheiro.
