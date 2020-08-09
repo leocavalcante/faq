@@ -28,6 +28,27 @@ Geralmente, quando a pessoa inicia nesse meio de programação, ela começa apre
 Mas é uma visão muito simplista (normal pra quem tá aprendendo), a ideia de programação vai mais além e existem vários outros paradigmas além do imperativo, varias outras formas de pensar em como instruir um computador. O HTML é uma linguagem de programação declarativa, ser uma linguagem que usa markup como sintaxe, não exclui o fato de ainda de ser de programação; outros exemplos são TeX e CFML.
 De começo, pra não passar "vergonha" no meio da garotada, fala que não é rsrs, mas continua estudando, indo atrás, abrindo a cabeça e vendo outras linguagens e paradigmas além do imperativo que um dia esse estalo vem ;) vou deixar umas referências como comentário do meu comentário:
 
+### CFML example
+
+Ser de marcação não siginifica que não é programação, uma coisa não exclui a outra. Linguagens markup são um subconjunto. Por exemplo:
+```cfml
+<!--- temperature.cfc --->
+<cfcomponent>
+  <cffunction name="FtoC" access="public" returntype="numeric">
+    <cfargument name="fahrenheit" required="yes" type="numeric" />
+    <cfset answer= (fahrenheit - 32)*100/180 />
+    <cfreturn answer />
+  </cffunction>
+</cfcomponent>
+<!--- test.cfm --->
+<cfset fDegrees = 212 />
+<cfinvoke component="temperature" method="FtoC" returnvariable="result">
+  <cfinvokeargument name="fahrenheit" value="#fDegrees#" />
+</cfinvoke>
+<cfoutput>#fDegrees#&deg;F = #result#&deg;C</cfoutput> <br />
+```
+É um programa que converte farenheight para celsius, só com "tags", puro markup, essa linguagem se chama ColdFusion Markup Language.
+
 ---
 - https://www.quora.com/What-is-the-difference-between-programming-languages-markup-languages-and-scripting-languages-in-terms-of-how-they-manipulate-create-use-data-What-are-the-differences/answer/Quildreen-Motta
 - https://www.youtube.com/watch?v=4A2mWqLUpzw
