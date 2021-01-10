@@ -55,3 +55,9 @@ E ai depois de conhecer legal patterns e arquitetura, próximo passo, IMHO é o 
 > https://swoolebook.com/
 
 Quem me conhece sabe que sou suspeito pra recomendar, mas entender programação assíncrona e saber otimizar seu código pra usar I/O não-bloqueante é também um MUST, essa livro é da Swoole, mas uns 50% dele é agnóstico, é sobre os internos de como o kernel do Linux funciona pra fazer isso ser possível, recomendo bastante também.
+
+### Segurança
+
+> https://cheatsheetseries.owasp.org/Glossary.html
+
+Acho que a OWASP é a maior referência em segurança na web, eles tem esse cheat-sheet com várias dicas de segurança na web, desde configurações gerais, formas de proceder e tem também dicas específicas pro PHP.
